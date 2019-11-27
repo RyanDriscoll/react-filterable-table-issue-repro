@@ -203,7 +203,7 @@ const App = () => {
         return (
           <input
             type="radio"
-            name={`submission-approved-${record.uid}`}
+            name={`item-${record.uid}`}
             value="yes"
             checked={value}
             onChange={e => handleChange(e, record.uid)}
@@ -219,7 +219,7 @@ const App = () => {
         return (
           <input
             type="radio"
-            name={`submission-approved-${record.uid}`}
+            name={`item-${record.uid}`}
             value="no"
             checked={value}
             onChange={e => handleChange(e, record.uid)}
@@ -235,7 +235,7 @@ const App = () => {
         return (
           <input
             type="radio"
-            name={`submission-approved-${record.uid}`}
+            name={`item-${record.uid}`}
             value="tbd"
             checked={value}
             onChange={e => handleChange(e, record.uid)}
